@@ -10,8 +10,8 @@ const image_file_names = ['normal.jpg',
 
 image_file_names.forEach(file_name => {
   check_valid_image('input_images/' + file_name)
-    .then(() => console.log('it is a valid image! fileName:', file_name))
-    .catch(err => console.log('invalid image detected. fileName:', file_name, ' error:', err))
+    .then(() => console.log('it is a valid image! file name:', file_name))
+    .catch(err => console.log('invalid image detected. file name:', file_name, ' error:', err))
 })
 
 
